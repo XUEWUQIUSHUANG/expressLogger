@@ -1,7 +1,7 @@
 {
   "name": "expresslogger",
   "version": "1.0.4",
-  "description": "a logger for @types/express router",
+  "description": "a logger for express router",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -17,9 +17,7 @@
   },
   "keywords": [
     "logger",
-    "express",
-    "@types/express",
-    "typescript"
+    "express"
   ],
   "author": "AutumnFrost",
   "license": "MIT",
