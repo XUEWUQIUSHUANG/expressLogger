@@ -1,5 +1,6 @@
 import sqlite3 from 'sqlite3'
 import fs from 'fs';
+import path from 'path';
 import { Request, Response, NextFunction, Router } from 'express';
 
 let db: sqlite3.Database;
@@ -111,8 +112,8 @@ function generateHtml(err: Error | null, result: LogEntry[], res: Response, firt
     }
     let rows: LogEntry[] = [];
     rows.push(...result);
-    const styles = fs.readFileSync('./utils/logData.css', 'utf8');
-    const js = fs.readFileSync('./utils/logData.js', 'utf8');
+    const styles = fs.readFileSync(path.join(__dirname, './utils/logData.css'), 'utf8');
+    const js = fs.readFileSync(path.join(__dirname, './utils/logData.js'), 'utf8');
     let html = `
         <!DOCTYPE html>
         <html lang="en">
@@ -225,4 +226,4 @@ function mkDir(path: string) {
     }
 }
 
-export default init;
+module.exports = init;
