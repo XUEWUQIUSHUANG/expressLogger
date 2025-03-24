@@ -1,0 +1,32 @@
+{
+  "name": "expresslogger",
+  "version": "1.0.0",
+  "description": "a logger for @types/express router",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/XUEWUQIUSHUANG/expresslogger.git"
+  },
+  "homepage": "https://github.com/XUEWUQIUSHUANG/expresslogger",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "logger",
+    "express",
+    "@types/express",
+    "typescript"
+  ],
+  "author": "AutumnFrost",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "express": "^4.17.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.49",
+    "typescript": "^4.4.3",
+    "ts-node": "^10.9.2"
+  }
+}
