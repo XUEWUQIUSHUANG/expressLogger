@@ -111,8 +111,8 @@ function generateHtml(err: Error | null, result: LogEntry[], res: Response, firt
     }
     let rows: LogEntry[] = [];
     rows.push(...result);
-    const styles = fs.readFileSync(__dirname + '/logData.css', 'utf8');
-    const js = fs.readFileSync(__dirname + '/logData.js', 'utf8');
+    const styles = fs.readFileSync('./utils/logData.css', 'utf8');
+    const js = fs.readFileSync('./utils/logData.js', 'utf8');
     let html = `
         <!DOCTYPE html>
         <html lang="en">

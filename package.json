@@ -1,13 +1,17 @@
 {
-  "name": "expresslogger",
+  "name": "ts-expresslogger",
   "version": "1.0.0",
   "description": "a logger for @types/express router",
-  "main": "index.js",
+  "main": "index.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/XUEWUQIUSHUANG/expresslogger.git"
+    "url": "https://github.com/XUEWUQIUSHUANG/expressLogger.git"
   },
-  "homepage": "https://github.com/XUEWUQIUSHUANG/expresslogger",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "homepage": "https://github.com/XUEWUQIUSHUANG/expressLogger",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +22,7 @@
     "typescript"
   ],
   "author": "AutumnFrost",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@types/express": "^5.0.1",
     "express": "^4.17.1",
