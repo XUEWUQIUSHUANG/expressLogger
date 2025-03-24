@@ -26,16 +26,16 @@
 ## 安装
 
 ```bash
-npm install expresslogger
+npm install expresslogger-platform
 ```
 
 ## 使用方法
 
 ```javascript
-const expressLog = require("expresslogger");
+const loggerPlatfrorm = require("expresslogger-platform");
 
 // 初始化日志中间件,传入日志文件存储路径
-const logger = expressLog("/log"); 
+const logger = loggerPlatform("/log"); 
 
 // 将日志中间件添加到Express应用
 app.use(logger);
