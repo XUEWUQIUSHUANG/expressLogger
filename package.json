@@ -1,5 +1,5 @@
 {
-  "name": "expresslogger",
+  "name": "expresslogger-platform",
   "version": "1.0.5",
   "description": "a logger for express router",
   "main": "index.js",
