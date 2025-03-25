@@ -17,7 +17,12 @@
   },
   "keywords": [
     "logger",
-    "express"
+    "express",
+    "log",
+    "expresslogger",
+    "expresslogger-platform",
+    "platform",
+    "webpage"
   ],
   "author": "AutumnFrost",
   "license": "MIT",
