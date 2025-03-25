@@ -32,7 +32,7 @@ npm install expresslogger-platform
 ## 使用方法
 
 ```javascript
-const loggerPlatfrorm = require("expresslogger-platform");
+const loggerPlatform = require("expresslogger-platform");
 
 // 初始化日志中间件,传入日志文件存储路径
 const logger = loggerPlatform("/log"); 
