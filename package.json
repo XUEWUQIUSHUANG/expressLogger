@@ -1,6 +1,6 @@
 {
   "name": "expresslogger-platform",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "a logger for express router",
   "main": "index.js",
   "repository": {
