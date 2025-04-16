@@ -40,12 +40,16 @@
     border-collapse: collapse;
     font-family: 'Segoe UI', system-ui, sans-serif;
     min-width: 600px;
+    position: relative;
 }
 
 .stunning-table thead {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 .stunning-table th {
@@ -54,6 +58,7 @@
     font-weight: 600;
     position: relative;
     letter-spacing: 0.5px;
+
 }
 
 .stunning-table th:not(:last-child)::after {
@@ -71,10 +76,12 @@
 }
 
 .stunning-table td {
+    position: relative;
     padding: 14px 24px;
     color: #2d3748;
     border-bottom: 1px solid #f8fafc;
     transition: all 0.2s ease;
+    z-index: 1;
 }
 
 .stunning-table tbody tr:nth-child(even) {
